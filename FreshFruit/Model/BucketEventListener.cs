@@ -9,7 +9,7 @@ namespace FreshFruit.Model
 
     interface BucketEventListener
     {
-        void OnSucced(string message);
+        void OnSucceed(string message);
         void onFailed(string message);
     }
 }
