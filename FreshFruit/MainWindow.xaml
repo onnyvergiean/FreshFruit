@@ -7,10 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="100" Margin="45,84,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="45,84,0,0" VerticalAlignment="Top" Width="100" Source="Assets/anggur.jpg"/>
         <Label Content="Fruit Shop" HorizontalAlignment="Left" Margin="48,27,0,0" VerticalAlignment="Top"/>
         <Label Content="Fresh and healty" HorizontalAlignment="Left" Margin="48,53,0,0" VerticalAlignment="Top"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="197,84,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="197,84,0,0" VerticalAlignment="Top" Width="100" Source="Assets/apple.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="45,253,0,0" VerticalAlignment="Top" Width="100" Source="Assets/banana.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="172,253,0,0" VerticalAlignment="Top" Width="100" Source="Assets/orange.png"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="56,199,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="197,204,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="197,382,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="56,382,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Hi, it's your bucket!" HorizontalAlignment="Left" Margin="451,79,0,0" VerticalAlignment="Top"/>
+        <ListBox HorizontalAlignment="Left" Height="128" Margin="451,110,0,0" VerticalAlignment="Top" Width="321"/>
 
     </Grid>
 </Window>
