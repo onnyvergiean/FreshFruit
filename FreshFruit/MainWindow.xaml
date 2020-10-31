@@ -1,0 +1,16 @@
+﻿<Window x:Class="FreshFruit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FreshFruit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="45,84,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Fruit Shop" HorizontalAlignment="Left" Margin="48,27,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fresh and healty" HorizontalAlignment="Left" Margin="48,53,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="197,84,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
