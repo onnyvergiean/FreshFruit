@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FreshFruit.Model
 {
-    class BucketEventListener
+
+    interface BucketEventListener
     {
+        void OnSucced(string message);
+        void onFailed(string message);
     }
 }
+
