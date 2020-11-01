@@ -20,7 +20,7 @@ namespace FreshFruit.Controller
 
         public void addFruit(Fruit fruit)
         {
-            if (bucketisOverload())
+            if (bucketIsoverload())
             {
                 eventListener.onFailed("Oops, Keranjang Penuh");
             }
@@ -43,12 +43,12 @@ namespace FreshFruit.Controller
                 if (bucket.findAll().ElementAt(itemPosition).getName() == fruit.name)
                 {
                     bucket.remove(itemPosition);
-                    eventListener.onSucceed("Yey, berhasil dihapus");
+                    eventListener.OnSucceed("Yey, berhasil dihapus");
                 }
             }
           }
 
-        public list<Fruit> findAll()
+        public List<Fruit> findAll()
         {
             return this.bucket.findAll();
         }
